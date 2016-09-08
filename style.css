@@ -1,0 +1,114 @@
+
+body {
+	margin: 0 0 0 0;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 14px;
+}
+
+main,
+article {
+	width: 600px;
+}
+
+/* --------------------
+	HEADER
+-------------------- */
+
+header {
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+	color: #fff;
+	background: url('background.jpg');
+	background-size: cover;
+}
+
+section {
+	padding-top: 40vh;
+}
+
+section h3,
+section h4 {
+	font-family: 'Permanent Marker', cursive;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+section h3 {
+	font-size: 96px;
+	line-height: 96px;
+}
+
+section h4 {
+	font-size: 64px;
+	font-size: 64px;
+}
+
+#landing-btn {
+	color: #fff;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+/* --------------------
+	MAIN
+-------------------- */
+main {
+	padding-top: 10vh;
+}
+
+#ingredients,
+#nutrients {
+	max-width: 49vw;
+	display: inline;
+}
+
+#ingredients h3 {
+	color: #879468;
+	font-size: 24px;
+	font-family: 'Patua One';
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	padding-left: 40px;
+}
+
+#ingredients ul {
+	list-style-type: none;
+}
+
+#ingredients li {
+	font-size: 14px;
+}
+
+#ingredients li h3 {
+	color: #879468;
+	font-size: 18px;
+	font-family: 'Patua One';
+	padding-left: 0px;
+}
+
+#nutrients td {
+	width: 125px;
+	border: 1px solid #879468;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Patua One';
+}
+
+#nutrients span {
+	color: #879468;
+	font-size: 10px;
+	font-family: 'Catamaran';
+}
+
+/* --------------------
+	FOOTER
+-------------------- */
+
+footer {
+	background-color: #202416;
+	color: #fff;
+	width: 100vw;
+	height: 240px;
+}
